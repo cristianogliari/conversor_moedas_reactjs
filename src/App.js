@@ -1,8 +1,8 @@
-import logo from './logo.svg';
 import './App.css';
 import Conversor from './components/Conversor';
 
 function App() {
+  document.title = "Conversor de moedas";
   return (
     <div className="App">
       <h1>Conversor de Moedas</h1>
